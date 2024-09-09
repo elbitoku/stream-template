@@ -1,5 +1,8 @@
 let helloNotif = document.querySelector('#helloNotif');
 let filter = document.querySelector('#filter')
+let serieTitle = document.querySelector('#serieTitle')
+
+serieTitle.textContent = serieTitle.textContent.toUpperCase();
 
 helloNotif.addEventListener("click", () => {
     console.log("clique");
