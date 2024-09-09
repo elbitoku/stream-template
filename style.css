@@ -74,6 +74,7 @@ a {
     flex-direction: row;   
     margin: 15px;
     gap: 20px;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -81,6 +82,7 @@ a {
     display: flex;
     flex-direction: row;
     gap: 10px;
+    align-items: center;
 }
 
 .helloYou p {
