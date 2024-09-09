@@ -163,16 +163,26 @@ a {
     height: 150px;
 }
 
+/* TOP 10 DU MOIS */
 .homeTopTen {
     display: flex;
     flex-direction: row;
     gap: 20px;
+    overflow-x: auto;
+    white-space: nowrap; 
+    max-width: 100%;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+
+}
+
+.homeTopTen::-webkit-scrollbar {
+    display: none;
 }
 
 .homeTopTenCard {
     display: flex;
     flex-direction: column;
-    margin-top: -15px;
 }
 
 .homeTopTenCard h4 {
@@ -180,8 +190,11 @@ a {
     font-weight: 400;
 }
 
-.homeTopTenCard p {
-    margin-top: -15px;
+.homeTopTenCardGenre {
+    display: flex;
+    justify-content: space-around;
+    max-width: 80%;
+    margin-top: -25px;
     font-weight: 400;
     color: #91949c;
 }
@@ -192,16 +205,27 @@ a {
     height: 200px;
 }
 
+
+/* RECOMMANDATION */
 .homeRecommanded {
     display: flex;
     flex-direction: row;
     gap: 20px;
+    overflow-x: auto;
+    white-space: nowrap; 
+    max-width: 100%;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+
+}
+
+.homeRecommanded::-webkit-scrollbar {
+    display: none;
 }
 
 .homeRecommandedCard {
     display: flex;
     flex-direction: column;
-    margin-top: -15px;
 }
 
 .homeRecommandedCard h4 {
@@ -209,8 +233,11 @@ a {
     font-weight: 400;
 }
 
-.homeRecommandedCard p {
-    margin-top: -15px;
+.homeRecommandedCardGenre {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin-top: -25px;
     font-weight: 400;
     color: #91949c;
 }
