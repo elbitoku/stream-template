@@ -146,13 +146,24 @@ a {
     flex-shrink: 0;
 }
 
-.homeWatchingCard h4 {
-    margin-top: 10px;
+.homeWatchingTitle {
     font-weight: 400;
+    max-width: 100%;
+    margin-top: 10px;
 }
 
-.homeWatchingCard p {
-    margin-top: -15px;
+.homeWatchingTitle p {
+    margin: 0;
+    word-break: break-word;
+    white-space: normal;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.homeWatchingRecap {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
     font-weight: 400;
     color: #91949c;
 }
@@ -185,16 +196,24 @@ a {
     flex-direction: column;
 }
 
-.homeTopTenCard h4 {
+.homeTopTenCardTitle {
     margin-top: 10px;
     font-weight: 400;
+    max-width: 100%;
+}
+
+.homeTopTenCardTitle p {
+    margin: 0;
+    word-break: break-word;
+    white-space: normal;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 .homeTopTenCardGenre {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     max-width: 80%;
-    margin-top: -25px;
     font-weight: 400;
     color: #91949c;
 }
@@ -228,16 +247,24 @@ a {
     flex-direction: column;
 }
 
-.homeRecommandedCard h4 {
+.homeRecommandedCardTitle {
     margin-top: 10px;
     font-weight: 400;
+    max-width: 100%;
+}
+
+.homeRecommandedCardTitle p {
+    margin: 0;
+    word-break: break-word;
+    white-space: normal;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 .homeRecommandedCardGenre {
     display: flex;
     justify-content: space-between;
     max-width: 80%;
-    margin-top: -25px;
     font-weight: 400;
     color: #91949c;
 }
