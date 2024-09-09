@@ -132,6 +132,7 @@ a {
 .homeWatchingCard {
     display: flex;
     flex-direction: column;
+    margin-top: -15px;
 }
 
 .homeWatchingCard h4 {
@@ -140,7 +141,7 @@ a {
 }
 
 .homeWatchingCard p {
-    margin-top: -10px;
+    margin-top: -15px;
     font-weight: 400;
     color: #91949c;
 }
@@ -160,6 +161,7 @@ a {
 .homeTopTenCard {
     display: flex;
     flex-direction: column;
+    margin-top: -15px;
 }
 
 .homeTopTenCard h4 {
@@ -168,7 +170,7 @@ a {
 }
 
 .homeTopTenCard p {
-    margin-top: -10px;
+    margin-top: -15px;
     font-weight: 400;
     color: #91949c;
 }
@@ -188,6 +190,7 @@ a {
 .homeRecommandedCard {
     display: flex;
     flex-direction: column;
+    margin-top: -15px;
 }
 
 .homeRecommandedCard h4 {
@@ -196,7 +199,7 @@ a {
 }
 
 .homeRecommandedCard p {
-    margin-top: -10px;
+    margin-top: -15px;
     font-weight: 400;
     color: #91949c;
 }
