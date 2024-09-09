@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    background-color: #1b1e26;
+    color: white;
+    font-family: Raleway;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0); 
+    backdrop-filter: blur(10px); 
+}
+
+.navbarItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.navbarLink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbarLink i {
+    font-size: 28px;
+}
+
+.navbarLink a {
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+}
+
+.navbarItem :hover {
+    color: #2eaebf;
+}
+
+.navbarItem :hover a {
+    color: #2eaebf;
+}
+.navbarLinkActive {
+    color: #2eaebf;
+}
+
+.navbarLinkActive a {
+    color: #2eaebf;
+}
+
+.hello {
+    display: flex;
+    flex-direction: row;   
+    margin: 15px;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.helloYou {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.helloYou p {
+    font-size: 16px;
+}
+
+.helloPicture {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    overflow: hidden;  
+    display: flex;
+}
+
+.helloNotif {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    overflow: hidden;  
+    background-color: #2d3240;
+    font-size: 24px;
+    color: #2eaebf;
+    box-shadow: 0 0 18px 1px rgba(46, 174, 191, 0.2);
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.homeTitle h3 {
+    font-weight: 400;
+}
+
+.homeWatching {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.homeWatchingCard {
+    display: flex;
+    flex-direction: column;
+}
+
+.homeWatchingCard h4 {
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.homeWatchingCard p {
+    margin-top: -10px;
+    font-weight: 400;
+    color: #91949c;
+}
+
+.homeWatchingCardImage img {
+    border-radius: 15px;
+    width: 250px;
+    height: 150px;
+}
+
+.homeTopTen {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.homeTopTenCard {
+    display: flex;
+    flex-direction: column;
+}
+
+.homeTopTenCard h4 {
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.homeTopTenCard p {
+    margin-top: -10px;
+    font-weight: 400;
+    color: #91949c;
+}
+
+.homeTopTenCardImage img {
+    border-radius: 15px;
+    width: 150px;
+    height: 200px;
+}
