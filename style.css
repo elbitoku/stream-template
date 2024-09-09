@@ -122,17 +122,28 @@ a {
 .homeTitle h3 {
     font-weight: 400;
 }
-
+ 
+/* Reprendre la lecture */
 .homeWatching {
     display: flex;
     flex-direction: row;
     gap: 20px;
+    overflow-x: auto;
+    white-space: nowrap; 
+    max-width: 100%;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+
+}
+
+.homeWatching::-webkit-scrollbar {
+    display: none;
 }
 
 .homeWatchingCard {
     display: flex;
     flex-direction: column;
-    margin-top: -15px;
+    flex-shrink: 0;
 }
 
 .homeWatchingCard h4 {
